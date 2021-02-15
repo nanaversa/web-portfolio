@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   '@fortawesome/fontawesome',
+1 verbose cli   'Svg',
+1 verbose cli   'Core'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.2
+4 verbose npm-session bf5b79caf81cffff
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 404 https://registry.npmjs.org/Svg 1331ms
+8 http fetch GET 404 https://registry.npmjs.org/Core 1372ms
+9 http fetch GET 404 https://registry.npmjs.org/Core 1030ms
+10 silly fetchPackageMetaData error for Core@latest 404 Not Found - GET https://registry.npmjs.org/Core - Not found
+11 http fetch GET 404 https://registry.npmjs.org/Svg 1085ms
+12 silly fetchPackageMetaData error for Svg@latest 404 Not Found - GET https://registry.npmjs.org/Svg - Not found
+13 http fetch GET 200 https://registry.npmjs.org/@fortawesome%2ffontawesome 2847ms
+14 http fetch GET 200 https://registry.npmjs.org/@fortawesome/fontawesome/-/fontawesome-1.1.8.tgz 1435ms
+15 silly pacote tag manifest for @fortawesome/fontawesome@latest fetched in 4418ms
+16 warn deprecated @fortawesome/fontawesome@1.1.8: This package is deprecated. See https://git.io/fNCzJ for information about upgrading.
+17 timing stage:rollbackFailedOptional Completed in 2ms
+18 timing stage:runTopLevelLifecycles Completed in 10009ms
+19 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/Core - Not found
+19 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:104:15
+19 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+20 verbose statusCode 404
+21 verbose pkgid Core@latest
+22 verbose cwd C:\Users\MY-PC\Desktop\REACT WEB\my-portfolio
+23 verbose Windows_NT 10.0.17763
+24 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "--save" "@fortawesome/fontawesome" "Svg" "Core"
+25 verbose node v12.18.2
+26 verbose npm  v6.14.5
+27 error code E404
+28 error 404 Not Found - GET https://registry.npmjs.org/Core - Not found
+29 error 404
+30 error 404 'Core@latest' is not in the npm registry.
+31 error 404 Your package name is not valid, because
+32 error 404 1. name can no longer contain capital letters
+33 error 404 Note that you can also install from a
+34 error 404 tarball, folder, http url, or git url.
+35 verbose exit [ 1, true ]

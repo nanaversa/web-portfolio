@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   '@fortawesome/fontawesome',
+1 verbose cli   'Svg',
+1 verbose cli   'Core'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.2
+4 verbose npm-session 045297538446c1db
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for @fortawesome/fontawesome@latest request to https://registry.npmjs.org/@fortawesome%2ffontawesome failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+8 silly fetchPackageMetaData error for Svg@latest request to https://registry.npmjs.org/Svg failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+9 silly fetchPackageMetaData error for Core@latest request to https://registry.npmjs.org/Core failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+10 timing stage:rollbackFailedOptional Completed in 1ms
+11 timing stage:runTopLevelLifecycles Completed in 5189ms
+12 verbose type system
+13 verbose stack FetchError: request to https://registry.npmjs.org/@fortawesome%2ffontawesome failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+13 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\node-fetch-npm\src\index.js:68:14)
+13 verbose stack     at ClientRequest.emit (events.js:315:20)
+13 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:426:9)
+13 verbose stack     at TLSSocket.emit (events.js:315:20)
+13 verbose stack     at emitErrorNT (internal/streams/destroy.js:92:8)
+13 verbose stack     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+13 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+14 verbose cwd C:\Users\MY-PC\Desktop\REACT WEB\my-portfolio
+15 verbose Windows_NT 10.0.17763
+16 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "--save" "@fortawesome/fontawesome" "Svg" "Core"
+17 verbose node v12.18.2
+18 verbose npm  v6.14.5
+19 error code ENOTFOUND
+20 error errno ENOTFOUND
+21 error network request to https://registry.npmjs.org/@fortawesome%2ffontawesome failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+22 error network This is a problem related to network connectivity.
+22 error network In most cases you are behind a proxy or have bad network settings.
+22 error network
+22 error network If you are behind a proxy, please make sure that the
+22 error network 'proxy' config is set properly.  See: 'npm help config'
+23 verbose exit [ 1, true ]
