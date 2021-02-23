@@ -1,17 +1,15 @@
-import React from 'react'
-import Card from '../common/Card'
-// import Header from '../common/Header'
+import React from "react";
 
 function Services() {
-    return (
-        <div>
-           {/* <Header /> */}
-
+  return (
+    <div>
+      {/* <Header /> */}
+      <div className="left">
         <h1>SERVICES</h1>
-        <Card title='Mobile App Development' image={require('../images/it.jpg')} />
-        
-        </div>
-    )
+        <img src={require("../images/005.jpg")} height="83%" width="50%" />
+      </div>
+    </div>
+  );
 }
 
-export default Services
+export default Services;

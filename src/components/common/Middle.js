@@ -48,10 +48,6 @@ function Middle() {
       <div className="left">
         <h1 className="services">SERVICES</h1>
 
-        {/* <h3 className="services-render-header">
-          We render the following services...
-        </h3> */}
-
         <div className="arrow-div">
           <FaArrowCircleLeft className="left-arrow" onClick={prevSlide} />
           <FaArrowCircleRight className="right-arrow" onClick={nextSlide} />

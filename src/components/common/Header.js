@@ -5,7 +5,7 @@ import { toast, ToastContainer } from "react-toastify";
 
 const Header = () => {
   useEffect(() => {
-    toast.success("Welcome User!");
+    // toast.success("Welcome User!");
   }, []);
 
   return (
